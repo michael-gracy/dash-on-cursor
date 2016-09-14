@@ -7,10 +7,28 @@
   "activationEvents": [
     "dash-on-cursor:open"
   ],
-  "repository": "https://github.com/stanaka/dash-on-cursor",
+  "repository": "https://github.com/michael.gracy/dash-on-cursor",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "description": "Search the word on the cursor with Dash",
+  "devDependencies": {},
+  "engines": {
+  "atom": ">0.50.0"
+},
+"homepage": "https://github.com/stanaka/dash-on-cursor#readme",
+"license": "MIT",
+"main": "./lib/dash-on-cursor",
+"name": "dash-on-cursor",
+"optionalDependencies": {},
+"private": true,
+"readme": "# dash-on-cursor package\n\nSearch the word on the cursor with Dash\n",
+"readmeFilename": "README.md",
+"repository": {
+  "type": "git",
+  "url": "git+https://github.com/michael.gracy/dash-on-cursor.git"
+},
+"version": "0.1.5"
 }
