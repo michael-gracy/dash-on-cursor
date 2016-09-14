@@ -1,15 +1,15 @@
 {
   "name": "dash-on-cursor-active",
-  "main": "./lib/dash-on-cursor",
+  "main": "./lib/dash-on-cursor-active",
   "version": "0.1.1",
   "private": true,
   "description": "Search the word on the cursor with Dash",
   "activationEvents": [
-    "dash-on-cursor:open"
+    "dash-on-cursor-active:open"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/michael.gracy/dash-on-cursor.git"
+    "url": "git+https://github.com/michael.gracy/dash-on-cursor-active.git"
   },
   "license": "MIT",
   "engines": {
