@@ -1,7 +1,7 @@
 {
   "name": "dash-on-cursor",
   "main": "./lib/dash-on-cursor",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "private": true,
   "description": "Search the word on the cursor with Dash",
   "activationEvents": [
