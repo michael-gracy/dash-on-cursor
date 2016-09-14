@@ -1,34 +1,24 @@
 {
-  "name": "dash-on-cursor(active)",
+  "name": "dash-on-cursor",
   "main": "./lib/dash-on-cursor",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "private": true,
   "description": "Search the word on the cursor with Dash",
   "activationEvents": [
     "dash-on-cursor:open"
   ],
-  "repository": "https://github.com/michael.gracy/dash-on-cursor",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michael.gracy/dash-on-cursor.git"
+  },
   "license": "MIT",
   "engines": {
-    "atom": ">=0.174.0, <2.0.0"
+    "atom": ">1.0.0 < 2.0.0"
   },
   "dependencies": {},
-  "description": "Search the word on the cursor with Dash",
   "devDependencies": {},
-  "engines": {
-  "atom": ">1.0.0 < 2.0.0"
-},
-"homepage": "https://github.com/stanaka/dash-on-cursor#readme",
-"license": "MIT",
-"main": "./lib/dash-on-cursor",
-"name": "dash-on-cursor",
-"optionalDependencies": {},
-"private": true,
-"readme": "# dash-on-cursor package\n\nSearch the word on the cursor with Dash\n",
-"readmeFilename": "README.md",
-"repository": {
-  "type": "git",
-  "url": "git+https://github.com/michael.gracy/dash-on-cursor.git"
-},
-"version": "0.1.1"
+  "homepage": "https://github.com/stanaka/dash-on-cursor#readme",
+  "optionalDependencies": {},
+  "readme": "# dash-on-cursor package\n\nSearch the word on the cursor with Dash\n",
+  "readmeFilename": "README.md"
 }
