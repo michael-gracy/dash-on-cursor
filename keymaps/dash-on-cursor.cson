@@ -1,2 +1,2 @@
 '.atom.editor':
-  'cmd-ctrl-d': 'dash-on-cursor:open'
+  'cmd-ctrl-d': 'dash-on-cursor-active:open'

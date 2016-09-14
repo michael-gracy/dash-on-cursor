@@ -1,7 +1,7 @@
 {WorkspaceView} = require 'atom'
 shell = require 'shell'
 
-describe "dash-on-cursor package", ->
+describe "dash-on-cursor-active package", ->
   activationPromise = null
 
   beforeEach ->
@@ -10,7 +10,7 @@ describe "dash-on-cursor package", ->
     atom.workspaceView = new WorkspaceView
     atom.workspace = atom.workspaceView.model
 
-    activationPromise = atom.packages.activatePackage('dash-on-cursor')
+    activationPromise = atom.packages.activatePackage('dash-on-cursor-active')
 
   describe "when the dash:open event is triggered", ->
     it "opens dash for searching text on the cursor", ->
@@ -20,11 +20,11 @@ describe "dash-on-cursor package", ->
       editor.setText("return\n")
 
       spyOn(shell, 'openExternal')
-      editorView.trigger('dash-on-cursor:open')
+      editorView.trigger('dash-on-cursor-active:open')
       expect(shell.openExternal).not.toHaveBeenCalled()
 
       editor.setCursorBufferPosition([0,5])
-      editorView.trigger('dash-on-cursor:open')
+      editorView.trigger('dash-on-cursor-active:open')
 
       expect(shell.openExternal).toHaveBeenCalled()
       expect(shell.openExternal.argsForCall[0][0]).toBe 'dash://return'

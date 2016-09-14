@@ -23,7 +23,7 @@ grammar2docsets =
 
 module.exports =
   activate: (state) ->
-    atom.commands.add 'atom-workspace','dash-on-cursor:open': => @open()
+    atom.commands.add 'atom-workspace','dash-on-cursor-active:open': => @open()
 
   open: ->
     editor = atom.workspace.getActiveTextEditor()
