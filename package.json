@@ -1,5 +1,5 @@
 {
-  "name": "dash-on-cursor",
+  "name": "dash-on-cursor-active",
   "main": "./lib/dash-on-cursor",
   "version": "0.1.1",
   "private": true,
